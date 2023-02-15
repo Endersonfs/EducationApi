@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Cursos\Commands\" />
+    <Folder Include="Cursos\Commands\Update\" />
     <Folder Include="Cursos\Queries\Get\" />
   </ItemGroup>
 
