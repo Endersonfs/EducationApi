@@ -7,12 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="NewFolder\**" />
-    <EmbeddedResource Remove="NewFolder\**" />
-    <None Remove="NewFolder\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Education.Domain\Education.Domain.csproj" />
     <ProjectReference Include="..\Education.Persisten\Education.Persistence.csproj" />
   </ItemGroup>
@@ -20,7 +14,6 @@
   <ItemGroup>
     <Folder Include="Cursos\Commands\" />
     <Folder Include="Cursos\Queries\Get\" />
-    <Folder Include="Mapping\" />
   </ItemGroup>
 
   <ItemGroup>
