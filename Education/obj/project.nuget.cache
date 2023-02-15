@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tAS1P3iKmsyPGREnvWBaThIiLksFXtF7KulBP3WH+hx/zsxunAqlYg9AkDvRuRMGyBUHvfY1BNLWzo4zyKFW1w==",
+  "dgSpecHash": "qo4ltoAqwXAje3rkmYYWtv40KZSGV3zKh4UoiTw82tVaag4xI9Sn46ZJedH1PHxNBnME7CwtT0rITFhHWJ/bhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\EndersonFlorian\\Documents\\Enderson\\Unit Testing\\EducationApi\\EducationApi\\Education\\Education.csproj",
   "expectedPackageFiles": [
@@ -10,10 +10,10 @@
     "C:\\Users\\EndersonFlorian\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\EndersonFlorian\\.nuget\\packages\\fluentvalidation\\11.5.0\\fluentvalidation.11.5.0.nupkg.sha512",
     "C:\\Users\\EndersonFlorian\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
-    "C:\\Users\\EndersonFlorian\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\EndersonFlorian\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.0\\fluentvalidation.dependencyinjectionextensions.11.5.0.nupkg.sha512",
     "C:\\Users\\EndersonFlorian\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\EndersonFlorian\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
-    "C:\\Users\\EndersonFlorian\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\EndersonFlorian\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\EndersonFlorian\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\EndersonFlorian\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\EndersonFlorian\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

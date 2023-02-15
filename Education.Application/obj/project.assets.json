@@ -108,10 +108,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "FluentValidation.DependencyInjectionExtensions/11.2.1": {
+      "FluentValidation.DependencyInjectionExtensions/11.5.0": {
         "type": "package",
         "dependencies": {
-          "FluentValidation": "11.2.1",
+          "FluentValidation": "11.5.0",
           "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
         },
         "compile": {
@@ -154,11 +154,11 @@
           }
         }
       },
-      "MediatR.Extensions.Microsoft.DependencyInjection/11.0.0": {
+      "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
         "type": "package",
         "dependencies": {
-          "MediatR": "11.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+          "MediatR": "[11.0.0, 12.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "compile": {
           "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
@@ -1291,16 +1291,16 @@
         "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
       ]
     },
-    "FluentValidation.DependencyInjectionExtensions/11.2.1": {
-      "sha512": "WqR2kt0OidUCg9xS+YOoiDmdCu7EnYLLgQb/bX+5fTTVor+90dWmr1OdJaWlLZvg2nbwV9EfxA9FZp91+JmQtg==",
+    "FluentValidation.DependencyInjectionExtensions/11.5.0": {
+      "sha512": "GrOU4S2SKiDtI9B9Ol3/CE6gkG9wopxxhOfQJIsoymmQ0uCspPl8mfQXpEVCC72/Nv6qg1gp82ylo5b5d3GzRQ==",
       "type": "package",
-      "path": "fluentvalidation.dependencyinjectionextensions/11.2.1",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "fluent-validation-icon.png",
-        "fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.11.5.0.nupkg.sha512",
         "fluentvalidation.dependencyinjectionextensions.nuspec",
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
@@ -1338,16 +1338,16 @@
         "mediatr.contracts.nuspec"
       ]
     },
-    "MediatR.Extensions.Microsoft.DependencyInjection/11.0.0": {
-      "sha512": "jfD2NBYvP+HiUil2DWfM4bn+bCLp4H2xvoc9aorcnn2Jpgz7Ey8RyYMpgqeF3bs6CP6t8pzb6WkF5NFF/1RLHA==",
+    "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+      "sha512": "RW3etRuy6Xp63cgqfC0r/ITOtUT0f9ymJl1+1XZdzsYUsfv7WBPC2kXGOP8IYpY/6c4Q6805vbIW/88DopUs3w==",
       "type": "package",
-      "path": "mediatr.extensions.microsoft.dependencyinjection/11.0.0",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/11.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "gradient_128x128.png",
         "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
-        "mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
         "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
@@ -3468,8 +3468,13 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "AutoMapper >= 12.0.1",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "Education.Domain >= 1.0.0",
-      "Education.Persistence >= 1.0.0"
+      "Education.Persistence >= 1.0.0",
+      "FluentValidation >= 11.5.0",
+      "FluentValidation.DependencyInjectionExtensions >= 11.5.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0"
     ]
   },
   "packageFolders": {
@@ -3523,6 +3528,28 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          },
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[12.0.0, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.5.0, )"
+          },
+          "FluentValidation.DependencyInjectionExtensions": {
+            "target": "Package",
+            "version": "[11.5.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.1.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
